@@ -179,6 +179,28 @@ main h2 {
 .show-intro-wrap img {
   width: 100%;
 }
+/* Document Downloads */
+.dl-wrap {
+  border: 2px solid var(--blue-light);
+  border-radius : .5rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dl-header {
+  color: var(--blue-light);
+  border-bottom: 1px solid var(--blue);
+  font-size: 1rem;
+  padding: .5rem 1rem;
+}
+.dl-item {
+  color: yellow;
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+}
+.dl-item:hover {
+  text-decoration: none;
+}
 
 /* .btn-row {
   text-align: center;

@@ -309,7 +309,7 @@ main h2 {
   margin-left: 5px;
 }
 .keynote-row .datetime .time {
-  font-size: clamp(1.2rem, 1rem + 1vw, 2rem);
+  font-size: clamp(1rem, 1rem + 1vw, 1.5rem);
   font-weight: bold;
 }
 /* 議程主題及講者 */
